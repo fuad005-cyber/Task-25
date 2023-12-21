@@ -49,15 +49,16 @@
 
 // TASK 10 -->Addaki hərflərin sayını konsola çıxarın.fullName dəyişənində istifadəçinin tam adı saxlanılır. Addaki hərflərin sayını konsola çıxarın.Probel hərf olaraq sayılmır.let fullName = "Murad Orucov"
 // let fullName = "Murad Orucov"
-// console.log(fullName.length)
+// console.log(fullName.length - 1)
 
 
 
 
 // TASK 11 --> İstifadəçinin ad soyadının baş hərflərini konsola çıxaran proqram yazın.İstifadəçinin adını və soyadını boşluqlarla ayıraraq fullName dəyişəninə yazın.fullName dəyişəninin dəyərindən istifadə edərək istifadəçinin baş hərflərini konsola çıxaran proqram yazın.
 
-
-// !!!!!!!
+// let fullName = prompt("Adinizi ve soyadinizi daxil edin")
+// let shortName = fullName.indexOf(" ") + 1 ;
+// console.log(fullName[0], fullName[shortName]); 
 
 // TASK 12 --> İstifadəçidən tam adını daxil etməyini istəyin və soyadı ilə adının yerini dəyişin.İstifadəçidən tam adı «AD SOYAD» formatında daxil etməyi xahiş edin.Tam adını konsola fərqli qaydada yəni «SOYAD AD» formatında çıxarın,
 // let userName = prompt("Adinizi daxil edin")
@@ -90,8 +91,8 @@
 
 
 // TASK 17 --> Rəqəmlərin cəmini göstərən proqram yazın.İstifadəçidən dörd rəqəmli ədəd daxil etməsini xahiş edən və sonra daxil edilmiş ədədlərin rəqəmlərinin cəmini konsola çıxaran proqram yazın.
-
-
+// let number = prompt("4 reqemli bir eded daxil edin")
+// console.log(+number[0] + +number[1] + +number[2] + +number[3]);
 
 // TASK 18 -->  İstifadəçinin soyadını və adını almaq üçün proqram tərtib edin.Proqram bir mesajla istifadəçinin soyadını və adını daxil etməsini istəyir və konsola «Salam, <ad>!» mesajını çıxarır.
 // let userInfo = prompt("Adinizi ve Soyadinizi daxil edin:");
@@ -114,6 +115,8 @@
 
 // TASK 21 --> İstifadəçidən soyad, ad və ata adını istəyən, soyadı və baş hərfləri konsola çıxaran proqram tərtib edin. Məsələn, «İvanov Pyotr Sergeevich» — «İvanov P.S.».
 
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 // TASK 22 --> Depozitdən mənfəətin hesablanması üçün proqram yazın.Proqram istifadəçidən əmanətin məbləğini, müddətini və faiz dərəcəsini daxil etməsini istəyir və gözlənilən mənfəəti hesablayır.
 
@@ -122,6 +125,133 @@
 // let percent = prompt("faiz dərəcəsini daxil edin")
 // let all = ((num * percent) / 100 ) * period
 // console.log(all)
+
+
+// TASK 23 --> Müxtəlif müqayisə operatorları ilə 5 ifadə yazın.value dəyişəni üçün müxtəlif müqayisə operatorları ilə 5 ifadə yazın,hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün false olacaq.
+// let value1 = 10
+// let value2 = 20 
+// console.log(value1 > value2);
+// console.log(value1 < value2);
+// console.log(value1 >= value2);
+// console.log(value1 <= value2);
+// console.log(value1 != value2);
+
+
+// TASK 24 --> 
+// let age = prompt("Yasinizi daxil edin")
+// if (age < 18) {
+//     console.log("Access denied")
+// }
+// else {
+//     console.log("Access granted");
+// }
+
+
+// TASK 25 -->
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+// TASK 26 -->
+// let year = prompt("Ili daxil edin:")
+// if (year % 4 == 0 ) {
+//     console.log("Il uzundu");
+    
+// }
+// else {
+//     console.log("Il uzun il deyil");
+// }
+
+
+
+// TASK 27 --> 
+// let id = prompt('enter product id:')
+
+// switch (id) {
+//     case "1":
+//         alert ('Available 10 pcs.');
+
+        
+//         break;
+//     case "2":
+//         alert('Available 256 pcs.')
+//         break
+//     case "3":
+//         alert('Available 53 pcs.');
+//         break
+//     case "4":
+//         alert('There are 3 available.');
+//         break
+
+//     default:
+//         alert('Out of stock');
+//         break;
+// }
+
+
+//  TASK 28 -->
+// let gender = prompt("Cinsinizi daxil edin (M ve ya F)")
+// if ( gender == "M") {
+//     alert("Cinsiniz Kişidir")
+    
+// }
+// else if ( gender == "F") {
+//     alert("Cinsiniz Qadındır")
+    
+// } else {
+//     alert("Səhv məlumat daxil etmisiniz")
+    
+// }
+
+
+// TASK 29 --> 
+
+// let nameOfMonth = prompt("ayın nömrəsini daxiledin:")
+// if (nameOfMonth == 1) {
+//     console.log("Yanvar");    
+// }
+// else if (nameOfMonth == 2) {
+//     console.log("Fevral");
+// }
+// else if (nameOfMonth == 3) {
+//     console.log("Mart");
+// }
+// else if (nameOfMonth == 4) {
+//     console.log("Aprel");
+// }
+// else if (nameOfMonth == 5) {
+//     console.log("May");
+// }
+// else if (nameOfMonth == 6) {
+//     console.log("Iyun");
+// }
+// else if (nameOfMonth == 7) {
+//     console.log("Iyul");
+// }
+// else if (nameOfMonth == 8) {
+//     console.log("Avqust");
+// }
+// else if (nameOfMonth == 9) {
+//     console.log("Sentyabr");
+// }
+// else if (nameOfMonth == 10) {
+//     console.log("Oktyabr");
+// }
+// else if (nameOfMonth == 11) {
+//     console.log("Noyabr");
+// }
+// else if (nameOfMonth == 12) {
+//     console.log("Dekabr");
+// }
+// else {
+//     console.log("Sehv melumat daxil etmisiniz");
+// }
+
+
+// TASK 30 --> 
+
+
+
+
 
 
 
