@@ -1,5 +1,5 @@
-// TASK 1 --> Konsola mesaj verin: «My name is Murad».
-// console.log("My name is Murad")
+// TASK 1 --> Konsola mesaj verin: «My name is Fuad».
+// console.log("My name is Fuad")
 
 
 // TASK 2 --> Adı name və adınızın mənimsədildiyi sabit dəyişən təyin edin.Bu dəyişənin dəyərini konsolda göstərin.
@@ -48,7 +48,7 @@
 // console.log("Sizin bir daha görməyimizə şadıq " + firstName + lastName )
 
 // TASK 10 -->Addaki hərflərin sayını konsola çıxarın.fullName dəyişənində istifadəçinin tam adı saxlanılır. Addaki hərflərin sayını konsola çıxarın.Probel hərf olaraq sayılmır.let fullName = "Murad Orucov"
-// let fullName = "Murad Orucov"
+// let fullName = "Fuad Azizov"
 // console.log(fullName.length - 1)
 
 
@@ -81,9 +81,9 @@
 
 
 // TASK 15 --> 12345 və 98765 ədədlərinin hasilindən alınan nəticənin 6-cı rəqəmini tapan proqram yazın   !!!!
-// let num1 = 12345
-// let num2 = 98765
-// console.log((num1 * num2).toLocaleString[6])
+// let num1 = "12345"
+// let num2 = "98765"
+// console.log((num1 * num2).indexOf(6))
 
 
 // TASK 16 --> Əməliyyatların nəticəsini müəyyənləşdirin.
@@ -101,11 +101,9 @@
 
 
 // TASK 19 --> Qiyməti mətn halına salan proqram tərtib edin.İstifadəçidən «530.90» formatında qiymət daxil etməyi xahiş edən və qiyməti «530 manat 90 qəpik» formatında konsola çıxaran proqram tərtib edin.
-// let num = prompt(" Xahis edirik 530.90 qiymetini daxil edesiniz")
-// let num1 = "530 manat "
-// let num2 = " 90 qepik"
-// console.log(num1 + num2)
-
+// let value = prompt("Daxil edin!", "530.90")
+// let arr = value.split(".")
+// console.log(`${arr[0]} manat ${arr[1]} qepik`);
 
 // TASK 20 --> Vergi nəzərə alınmadan əmək haqqı məbləğini hesablayan proqram tərtib edin.Proqram istifadəçidən əmək haqqı məbləğin soruşur və 13% vergi istisna olmaqla məbləği konsola çıxarır.
 // let payMent = prompt("əmək haqqı məbləğin daxil edin: ")
@@ -114,9 +112,12 @@
 
 
 // TASK 21 --> İstifadəçidən soyad, ad və ata adını istəyən, soyadı və baş hərfləri konsola çıxaran proqram tərtib edin. Məsələn, «İvanov Pyotr Sergeevich» — «İvanov P.S.».
-
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+// let fullName = prompt("soyad, ad və ata adını daxil edin")
+// let arr = fullName.split(" ")
+// let lastName = arr[0]
+// let firstNameFirstLetter = arr[1][0]
+// let fatherNameFirstLetter = arr[2][0]
+// console.log(`${lastName} ${firstNameFirstLetter}.${fatherNameFirstLetter}`);
 
 // TASK 22 --> Depozitdən mənfəətin hesablanması üçün proqram yazın.Proqram istifadəçidən əmanətin məbləğini, müddətini və faiz dərəcəsini daxil etməsini istəyir və gözlənilən mənfəəti hesablayır.
 
@@ -247,7 +248,8 @@
 // }
 
 
-// TASK 30 --> 
+// TASK 30 -->
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 
 
 
 
