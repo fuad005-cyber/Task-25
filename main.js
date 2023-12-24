@@ -246,50 +246,49 @@
 // }
 
 // TASK 30 -->
-let date = prompt("tarixi daxil edin, Expample: 2009.12.19");
-let arr = date.split(".");
-let month = arr[1]
-switch (month) {
-  case "1":
-    console.log("Yanvar");
+// let date = prompt("tarixi daxil edin, Expample: 2009.12.19");
+// let arr = date.split(".");
+// let month = arr[1]
+// switch (month) {
+//   case "1":
+//     console.log("Yanvar");
+//     break;
+//   case  "2":
+//     console.log("Fevral");
+//     break;
+//   case "3":
+//     console.log("Mart");
+//     break;
+//   case "4":
+//     console.log("Aprel");
+//     break;
+//   case "5":
+//     console.log("May");
+//     break;
+//   case "6":
+//     console.log("Iyun");
+//     break;
+//   case "7":
+//     console.log("Iyul");
+//     break;
+//   case "8":
+//     console.log("Avqust");
+//     break;
+//   case "9":
+//     console.log("Sentyabr");
+//     break;
+//   case "10":
+//     console.log("Oktyabr");
+//     break;
+//   case "11":
+//     console.log("Noyabr");
+//     break;
+//   case "12":
+//     console.log("Dekabr");
+//     break;
 
-    break;
-  case  2:
-    console.log("Fevral");
-    break;
-  case 3:
-    console.log("Mart");
-    break;
-  case 4:
-    console.log("Aprel");
-    break;
-  case 5:
-    console.log("May");
-    break;
-  case 6:
-    console.log("Iyun");
-    break;
-  case 7:
-    console.log("Iyul");
-    break;
-  case 8:
-    console.log("Avqust");
-    break;
-  case 9:
-    console.log("Sentyabr");
-    break;
-  case 10:
-    console.log("Oktyabr");
-    break;
-  case 11:
-    console.log("Noyabr");
-    break;
-  case 12:
-    console.log("Dekabr");
-    break;
-
-  default:
-    console.log("Sehv melumat daxil etmisiniz");
-    break;
-}
-console.log(`${arr[0]} -cu(ci) il ${arr[2]} ${month}`);
+//   default:
+//     console.log("Sehv melumat daxil etmisiniz");
+//     break;
+// }
+// console.log(`${arr[0]} -cu(ci) il ${arr[2]} ${month}`);
