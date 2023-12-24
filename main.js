@@ -106,9 +106,9 @@
 // console.log(`${arr[0]} manat ${arr[1]} qepik`);
 
 // TASK 20 --> Vergi nəzərə alınmadan əmək haqqı məbləğini hesablayan proqram tərtib edin.Proqram istifadəçidən əmək haqqı məbləğin soruşur və 13% vergi istisna olmaqla məbləği konsola çıxarır.
-// let payMent = prompt("əmək haqqı məbləğin daxil edin: ")
+// let payMent = +prompt("əmək haqqı məbləğin daxil edin: ")
 // let tax = (payMent * 13 ) / 100 
-// console.log(tax)
+// console.log(payMent - tax)
 
 
 // TASK 21 --> İstifadəçidən soyad, ad və ata adını istəyən, soyadı və baş hərfləri konsola çıxaran proqram tərtib edin. Məsələn, «İvanov Pyotr Sergeevich» — «İvanov P.S.».
@@ -249,7 +249,10 @@
 
 
 // TASK 30 -->
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1 
+// let date = prompt("tarixi daxil edin, Expample: 2009.12.19")
+// let arr = date.split(".")
+
+// console.log(`${arr[0]} -cu(ci) il ${arr[2]}  `);
 
 
 
