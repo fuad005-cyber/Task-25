@@ -202,48 +202,52 @@
 
 // }
 
-// TASK 29 -->
 
-// let nameOfMonth = prompt("ayın nömrəsini daxiledin:")
-// if (nameOfMonth == 1) {
+// TASK 29 -->
+// let nameOfMonth = prompt("ayın nömrəsini daxiledin:");
+// switch (nameOfMonth) {
+//   case "1":
 //     console.log("Yanvar");
-// }
-// else if (nameOfMonth == 2) {
+//     break;
+//   case "2":
 //     console.log("Fevral");
-// }
-// else if (nameOfMonth == 3) {
+//     break;
+//   case "3":
 //     console.log("Mart");
-// }
-// else if (nameOfMonth == 4) {
+//     break;
+//   case "4":
 //     console.log("Aprel");
-// }
-// else if (nameOfMonth == 5) {
+//     break;
+//   case "5":
 //     console.log("May");
-// }
-// else if (nameOfMonth == 6) {
+//     break;
+//   case "6":
 //     console.log("Iyun");
-// }
-// else if (nameOfMonth == 7) {
+//     break;
+//   case "7":
 //     console.log("Iyul");
-// }
-// else if (nameOfMonth == 8) {
+//     break;
+//   case "8":
 //     console.log("Avqust");
-// }
-// else if (nameOfMonth == 9) {
+//     break;
+//   case "9":
 //     console.log("Sentyabr");
-// }
-// else if (nameOfMonth == 10) {
+//     break;
+//   case "10":
 //     console.log("Oktyabr");
-// }
-// else if (nameOfMonth == 11) {
+//     break;
+//   case "11":
 //     console.log("Noyabr");
-// }
-// else if (nameOfMonth == 12) {
+//     break;
+//   case "12":
 //     console.log("Dekabr");
-// }
-// else {
+//     break;
+
+//   default:
 //     console.log("Sehv melumat daxil etmisiniz");
+//     break;
 // }
+
 
 // TASK 30 -->
 // let date = prompt("tarixi daxil edin, Expample: 2009.12.19");
@@ -292,3 +296,5 @@
 //     break;
 // }
 // console.log(`${arr[0]} -cu(ci) il ${arr[2]} ${month}`);
+
+
