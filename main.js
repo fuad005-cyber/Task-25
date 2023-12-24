@@ -149,8 +149,32 @@
 
 
 // TASK 25 -->
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+// let value = prompt("Number , for example: 45 46 47")
+// let numberList = value.split(" ")
+// let num1 = numberList[0]
+// let num2 = numberList[1]
+// let num3 = numberList[2]
+// if ( num1<num2 && num2 < num3) {
+//     console.log(`${num2} You entered these numbers:  ${value}` );
+// }
+// else if (num2 < num1 && num2 > num3) {
+//     console.log(`${num2} You entered these numbers:  ${value}` );
+// }
+// else if (num1 < num2 && num2 > num3) {
+//     console.log(`${num1} You entered these numbers:  ${value}` );
+// }
+// else if (num1 > num2 && num2 < num3) {
+//     console.log(`${num1} You entered these numbers:  ${value}` );
+// }
+// else if (num1 > num2 && num2 < num3) {
+//     console.log(`${num3} You entered these numbers:  ${value}` );
+// }
+// else if (num1 < num2 && num2 > num3) {
+//     console.log(`${num3} You entered these numbers:  ${value}` );
+// }
+// else {
+//     console.log("You entered incorrect data");
+// }
 
 // TASK 26 -->
 // let year = prompt("Ili daxil edin:")
@@ -251,7 +275,6 @@
 // TASK 30 -->
 // let date = prompt("tarixi daxil edin, Expample: 2009.12.19")
 // let arr = date.split(".")
-
 // console.log(`${arr[0]} -cu(ci) il ${arr[2]}  `);
 
 
